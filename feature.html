@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>국내 방송사별 기사 특징</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <style>
+            /* 전체 스타일 */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+.image {
+        float: right;
+        margin-right: 200px;
+    }
+  
+/* 헤더 스타일 */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+  
+header h1 {
+  margin: 0;
+  font-size: 30px;
+  A:link { color: white; text-decoration:none;}
+  A:visited { color: white; text-decoration:none;}
+  A:active { color: white; text-decoration:none;}
+  A:hover {color: yellow;}
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  font-size: 22;
+  A:link { color: white; text-decoration:none;}
+  A:visited { color: white; text-decoration:none;}
+  A:active { color: white; text-decoration:none;}
+  A:hover { color: yellow;}
+}
+
+  
+/* 메인 스타일 */
+main {
+  padding: 20px;
+}
+  
+.content {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+  
+.content h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+  
+.content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+/* 푸터 스타일 */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+  
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <h1><a href="main_page.html">NewsHub</a></h1>
+                </div>
+                <div class="title">
+                    <h1>국내 방송사별 기사 특징</h1>
+                </div>
+            </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#kbs">KBS</a></li>
+                <li><a href="#mbc">MBC</a></li>
+                <li><a href="#sbs">SBS</a></li>
+                <li><a href="#jtbc">JTBC</a></li>
+                <li><a href="#ytn">YTN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content" id="kbs">
+            <h2>KBS (Korean Broadcasting System)</h2>
+            <img src="./img/kbs.png" class="image" width="200px">
+            <p><strong>공영방송</strong>: 정부 지원을 받으며 공공의 이익을 위해 운영된다.</p>
+            <p><strong>중립적 보도</strong>: 정부 정책을 비교적 중립적으로 보도하려는 경향이 강하다.</p>
+            <p><strong>다양한 콘텐츠</strong>: 뉴스, 다큐멘터리, 예능, 드라마 등 다양한 프로그램을 제공한다.</p>
+            <p><strong>국제 뉴스</strong>: 해외 소식을 상세하게 전달한다.</p>
+        </div>
+
+        <div class="content" id="mbc">
+            <h2>MBC (Munhwa Broadcasting Corporation)</h2>
+            <img src="./img/mbc.jpg" class="image" width="200px">
+            <p><strong>공영방송</strong>: 공공의 이익을 위해 운영되며, 정부의 지원을 받는다.</p>
+            <p><strong>사회적 이슈</strong>: 사회 문제와 관련된 이슈에 대한 보도가 많다.</p>
+            <p><strong>탐사보도</strong>: 심층적인 탐사보도를 통해 사회 문제를 조명한다.</p>
+            <p><strong>문화 콘텐츠</strong>: 드라마, 예능 프로그램에서 강점을 보인다.</p>
+        </div>
+
+        <div class="content" id="sbs">
+            <h2>SBS (Seoul Broadcasting System)</h2>
+            <img src="./img/sbs.png" class="image" width="200px">
+            <p><strong>민영방송</strong>: 상업적 이익을 추구하는 민영방송이다.</p>
+            <p><strong>속보성</strong>: 사건 사고 등 속보 뉴스에 강점을 가지고 있다.</p>
+            <p><strong>엔터테인먼트</strong>: 다양한 예능 프로그램과 드라마로 유명하다.</p>
+            <p><strong>시청자 중심</strong>: 시청자의 관심사를 반영한 뉴스와 프로그램을 제작한다.</p>
+        </div>
+
+        <div class="content" id="jtbc">
+            <h2>JTBC (Joongang Tongyang Broadcasting Company)</h2>
+            <img src="./img/jtbc.jpg" class="image" width="200px">
+            <p><strong>종합편성채널</strong>: 다양한 장르의 프로그램을 편성하는 종합편성채널이다.</p>
+            <p><strong>심층보도</strong>: 정치, 경제, 사회 이슈에 대한 심층적인 보도가 많다.</p>
+            <p><strong>비평적 시각</strong>: 정부 및 권력 기관에 대한 비평적인 시각을 보여준다.</p>
+            <p><strong>다양성</strong>: 뉴스, 시사 프로그램 외에도 다양한 예능 프로그램이 있다.</p>
+        </div>
+
+        <div class="content" id="ytn">
+            <h2>YTN (Yonhap Television News)</h2>
+            <img src="./img/ytn.png" class="image" width="200px">
+            <p><strong>24시간 뉴스</strong>: 24시간 뉴스 방송을 하는 뉴스 전문 채널이다.</p>
+            <p><strong>신속성</strong>: 빠른 속보와 실시간 뉴스 전달을 주력으로 한다.</p>
+            <p><strong>전문성</strong>: 특정 분야에 대한 전문적인 뉴스 보도를 제공한다.</p>
+            <p><strong>인터랙티브</strong>: 시청자와의 소통을 강화한 뉴스를 보여준다.</p>
+        </div>
+    </main>
+    <footer>
+        <br>
+        <p>&copy; 2024 Introduction to AI Programming Project</p>
+    </footer>
+</body>
+</html>
